@@ -34,7 +34,22 @@ export const WordsContainer = styled.section`
 			}
 			td {
 				border: 1px #fff solid;
-				font-size: 2.4rem;
+				font-size: 0.8rem;
+        @media screen and (min-width: 400px) {
+					font-size: 1rem;
+				}
+				@media screen and (min-width: 600px) {
+					font-size: 1.2rem;
+				}
+        @media screen and (min-width: 800px) {
+					font-size: 1.6rem;
+				}
+        @media screen and (min-width: 1000px) {
+					font-size: 2rem;
+				}
+        @media screen and (min-width: 1200px) {
+					font-size: 2.4rem;
+				}
 			}
 			.invisible {
 				color: transparent;
